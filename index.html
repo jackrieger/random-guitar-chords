@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang='en'>
   <head>
     <title>Random Guitar Chords</title>
@@ -10,45 +10,21 @@
     <link rel='stylesheet' href='reset.min.css'>
     <link rel='stylesheet' href='main.css'>
   </head>
-
   <body>
-
     <div id='wrapper'>
-
       <div id='top'>
         <span>Random Guitar Chords</span>
       </div>
-
       <div id='middle'>
         <div id='chord_container'></div>
       </div>
-
       <div id='bottom'>
-
         <div id='user_inputs' class='quarter_width'>
           <input type='number' id='voicing_amount' value='3'>
           <button id='generate_button'>Generate</button>
         </div>
-
-        <div id='about' class='half_width'>
-          <p>An online tool that generates random chords for the guitar. See voicings you may not have ever played before, or explore progressions you may not have ever considered.</p>
-        </div>
-
-        <div id='donate' class='quarter_width'>
-          <p>Like this tool?<br>Consider a donation.</p>
-          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" id='donate_button'>
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="8HPR6KR9VZY7U">
-            <input type="image" src="https://randomguitarchords.com/donate_button.png" name="submit" alt="PayPal - The safer, easier way to pay online!">
-            <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-          </form>
-        </div>
-
       </div> <!-- end bottom -->
-
     </div> <!-- end wrapper -->
-
     <script src='voicings.js'></script>
-
   </body>
 </html>
